@@ -11,7 +11,7 @@ f=open('youtube_data.csv','a')
 
 
 while(True):
-    page=requests.get("https://youtu.be/8Bx9e8uk8ko")
+    page=requests.get("https://www.youtube.com/watch?v=jCWjrRNl0Zg")
     soup=BeautifulSoup(page.content,'html.parser')
 
     now=datetime.datetime.now()
